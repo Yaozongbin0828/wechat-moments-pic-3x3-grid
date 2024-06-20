@@ -1,0 +1,68 @@
+.zoom {
+  transition: transform 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+.zoom img {
+  transition: transform 0.6s;
+}
+.zoom.clicked {
+  transform: scale(1.5);
+  position: absolute;
+  z-index: 9999;
+  transform-origin: center center;
+  cursor: zoom-out;
+}
+
+.images {
+  display: grid;
+  gap: 10px;
+}
+
+.images img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+  cursor: zoom-in;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-1 {
+  grid-template-columns: 150px;
+}
+
+.grid-3,
+.grid-5,
+.grid-6,
+.grid-7,
+.grid-8,
+.grid-9 {
+  grid-template-columns: repeat(3, 150px);
+}
+
+.grid-2,
+.grid-4 {
+  grid-template-columns: repeat(2, 150px);
+}
+
+@media (max-width: 540px) {
+  .grid-3,
+  .grid-5,
+  .grid-6,
+  .grid-7,
+  .grid-8,
+  .grid-9 {
+    grid-template-columns: repeat(3, 96px);
+  }
+  .grid-2,
+  .grid-4 {
+    grid-template-columns: repeat(2, 96px);
+  }
+  .images img {
+    width: 96px;
+    height: 96px;
+  }
+}
