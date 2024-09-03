@@ -103,6 +103,12 @@
             <mxPoint x="782" y="544" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="PsaLoDMkR1xvhBFZUS9O-34" value="Teacher" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="481" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PsaLoDMkR1xvhBFZUS9O-35" value="Student" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="608" y="481" width="80" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
